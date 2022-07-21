@@ -3,7 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 run this project on:
-https://amangarg0303.github.io/
+https://amangarg0303.github.io/youtube-ui/
+and click on HOME button on left
+
 
 ## Available Scripts
 
