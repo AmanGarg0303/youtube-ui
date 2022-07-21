@@ -7,6 +7,7 @@ https://amangarg0303.github.io/youtube-ui/
 
 And click on HOME button on left
 
+If the page doesn't load, refresh it 2-3 times.
 
 
 ## Available Scripts
