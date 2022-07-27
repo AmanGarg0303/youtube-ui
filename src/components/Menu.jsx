@@ -20,15 +20,24 @@ import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightne
 import { Link } from "react-router-dom";
 
 const Container = styled.div`
-  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1.2;
   background-color: ${({ theme }) => theme.bgLighter};
   color: ${({ theme }) => theme.text};
   font-size: 14px;
-  max-height: 110vh;
   border-right: 0.5px solid ${({ theme }) => theme.softcore};
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+  height: 100vh;
+  width: 30vw;
+
+  &:hover {
+    overflow: auto;
+  }
 `;
+
 const Wrapper = styled.div`
   padding: 18px;
 `;
